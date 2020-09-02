@@ -5,9 +5,18 @@
     padding-right: 10px;
 } */
 
-#mc_embed_signup{color: aqua; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+#mc_embed_signup{ clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;
+}
 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+
+.blue-bg{
+    background-color: #003893;
+    border: #003893 solid;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+}
 
 .logo-div{
     min-height: 30px;
@@ -92,7 +101,7 @@ i{
     border-bottom: none;
     background: #3c763d;
 
-    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url('#');
+    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url('bck.jpg');
     background-size: cover;
     background-size: 100% 100%;
     
