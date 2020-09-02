@@ -1,0 +1,280 @@
+/* .main-div{
+    padding-top:30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+.logo-div{
+    min-height: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background:white;
+    color: #337ab7;
+    border: #003893 solid;
+    border-bottom: none;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.welcome-message-div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content-menu-class{
+    min-height: 3px;
+    background: #ff1800;
+    border: #003893 solid;
+    border-top: none;
+    border-bottom: none;
+}
+
+.icon-span{
+    color: white;
+}
+.welcome-message-div{
+    padding: 10px;
+}
+.welcome-message{
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.website-address{
+    font-size: 17px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.image-div{
+    vertical-align: middle;
+}
+
+i{
+    text-decoration-line: none;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.content-menu{ 
+    margin: 0 auto;
+    padding-left: 7%;
+    padding-right: 0%;
+    min-height: 100px;
+    
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background: #d6d5e6;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)), url('#');
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+.content-menu-bg{ 
+    margin: 0 auto;
+    min-height: 100px;
+    
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    border: #003893 solid;
+    border-top: none;
+    border-bottom: none;
+    background: #3c763d;
+
+    background-image:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)), url('#');
+    background-size: cover;
+    background-size: 100% 100%;
+    
+}
+
+.img {
+    width: 100%;
+}
+
+/* for icons */
+.section-image-div > svg{
+    height: 100%;
+}   
+.section-image-div{
+    height:110px;
+    width:110px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.section-image-div-description{
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.desc-a-tag{
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.image-des-divider{
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: goldenrod;
+    margin:4px 0;
+}
+
+.section-div{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.outer-div-red{
+    border-radius: 10px;
+    min-height: 200px;
+    text-align: center;
+    align-content: center;
+    border-style: solid;
+    border-top-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-top-color: darkgray;
+    border-left-color: darkgray;
+    border-right-color: darkgray;
+    border-bottom-color: darkgray;
+    background-color: transparent;
+    margin-top:15%;
+    margin-bottom: 10%;
+}
+
+.outer-div-gold{
+    height: 200px;
+    border-radius: 5px;
+    border-style: solid;
+    border-top-width: 10px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-top-color: darkgoldenrod;
+    background-color: white;
+    margin-bottom: 0px;
+    margin-top:5px;
+}
+
+.fa:hover{
+    color: #1b5693;
+}
+
+.item-div{
+    padding: auto 100px;
+}
+
+.outer-tag:hover,
+.outer-tag:active{
+    background-color: blue;
+}
+
+.outer-div-red:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45));
+    cursor: pointer;
+}
+
+.img-responsive{
+    margin: 0 auto;
+}
+/* rgb(220, 20, 60) */
+footer{
+    color: white;
+    background-color: #003893;
+    border-radius: 0px 0px 7px 7px;
+
+    border: #003893 solid;
+    border-top: none;
+}
+
+/**************************************/
+/*LOCATION OF MEDIA QUERY*/
+/*************************************/
+
+@media only screen and (max-width: 1000px){
+    .content-menu{ 
+        padding-left: 5%;
+        padding-right: 5%;
+    } 
+}
+
+@media only screen and (max-width: 766px) {
+    
+    .content-menu{ 
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .section-image-div{
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .img-responsive{
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .content-menu{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    
+    .section-image-div{
+        align-items: center;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .img-responsive{
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .content-menu{
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+#mypopup {
+    padding: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    position: absolute;
+    display: none;
+}
+
+#mypopup::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    transform: rotate(45deg);
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+}
