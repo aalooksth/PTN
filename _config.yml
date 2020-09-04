@@ -1,0 +1,7 @@
+title: Portal to Nepal
+url:                 https://portaltonepal.com # the base hostname & protocol for your site, e.g. http://example.com
+baseurl:              # the subpath of your site, e.g. /blog
+email:               support@portaltonepal.com
+social:
+    facebook: portaltonepal
+    youtube:  
